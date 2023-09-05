@@ -7,7 +7,7 @@ import { ShoppingListService } from '../shopping-list.service';
   templateUrl: './shoping-edit.component.html',
   styleUrls: ['./shoping-edit.component.css'],
 })
-export class ShopingEditComponent {
+export class ShopingEditComponent implements OnInit {
   @ViewChild('nameInput', { static: false }) nameInputRef: ElementRef;
   @ViewChild('amountInput', { static: false }) amountInputRef: ElementRef;
 
